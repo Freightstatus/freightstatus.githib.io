@@ -117,7 +117,6 @@ img {
 
 	max-width: 100%;
 	max-height: 100%;
-	display: block; 
 }
 
 div.servicelist1 { 
@@ -198,6 +197,9 @@ div.intermodal {
 div.contact{ 
 margin-top: 20px;
 max-width: 185px;
+margin: 0 auto;
+padding-top: 20px;
+}
 
  }
 
@@ -218,13 +220,13 @@ text-shadow: 2px 2px 4px #D3D3D3;
   }
 
  footer div.logo { 
-	min-width: 40%;
+	min-width: 35%;
 
   }
 
 div.cr { 
 	padding-top: 13vh;
-	min-width: 40%;
+	min-width: 50%;
 	font-size: 0.6em;
 	
 
@@ -244,5 +246,129 @@ div.letters p {
 
  }
 
+ div.statment { 
+ 	padding-bottom: 20px;
+
+  }
+
+ div.media {
+
+    display: flex;
+    min-width: 70%;
+
+ }
+
+ div.contact { 
+margin: 
+
+  }
+
+  div.last1 img { 
+	width: 1em;
+    height: 1em;
+    margin-top: 10px;
+
+   }
+
+	div.last2 img { 
+	width: 1em;
+    height: 1em;
+    margin-top: 5px;
+	}
+
+	div.last3 img { 
+	width: 1em;
+    height: 1em;
+    margin-top: 5px;
+	}
+
+	
+	@media (max-width: 600px) {
+
+ 	header.topheader { 
+	height: auto; 
+	display: block;
+
+ 	 }
+
+ 	div.logo { 
+
+ 	min-width: auto;
+	
+ 	 }
+
+	div.name {
+
+	width: auto;
+	}
+
+
+	div.aboutus { 
+	margin: 10px;
+	 }
+
+
+	div.servicelist1 {
+	
+	display: block;
+
+	}
+
+	div.servicelist2 {
+	
+	display: block;
+
+
+	}
+
+	div.name { 
+	
+	 }
+
+	div.letters {
+		padding-right: 100px;
+
+	}
+
+		div.statment{
+	padding-bottom: 20px;
+	}
+
+
+	footer{ 
+
+	display: block;
+
+			}
+
+	div.logo { 
+		margin: 0 auto;
+		text-align: center;
+	 }
+
+	div.media { 
+
+		display: flex;
+		flex-direction: column-reverse;
+
+
+	 }
+
+	div.cr {
+    padding-top: 2vh;
+    margin: 0 auto;
+
+	}
+
+	div.contact {
+     margin: 0 auto;
+     padding: 0;
+      padding: 0 30px;
+
+    }
+}
+
 	
 	
+
+
