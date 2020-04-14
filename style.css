@@ -281,7 +281,7 @@ div.letters p {
     
 	}
 
-	div.last1 div.last2 div.last3 {
+	div.last1, div.last2, div.last3 {
 	font-size: 1.3em;
 
 	}
