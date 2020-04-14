@@ -263,6 +263,7 @@ div.letters p {
 	width: 1em;
     height: 1em;
     margin-top: 10px;
+    font-size: 1.3em;
 
    }
 
@@ -270,12 +271,14 @@ div.letters p {
 	width: 1em;
     height: 1em;
     margin-top: 5px;
+    font-size: 1.3em;
 	}
 
 	div.last3 img { 
 	width: 1em;
     height: 1em;
     margin-top: 5px;
+    font-size: 1.3em;
 	}
 
 	
