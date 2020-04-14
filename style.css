@@ -254,12 +254,8 @@ div.letters p {
  div.media {
 
     display: flex;
-    min-width: 70%;
+    width: 100%;
 
- }
-
- div.contact { 
-margin: 
 
   }
 
@@ -321,9 +317,6 @@ margin:
 
 	}
 
-	div.name { 
-	
-	 }
 
 	div.letters {
 		padding-right: 100px;
